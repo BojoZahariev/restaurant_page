@@ -1,14 +1,13 @@
-// import your function
-import myName from './myName';
+// import function
 import testing from './home';
 import css from './styles/app.css';
 
-function component() {
-  var element = document.createElement('div');
 
-  // use your function!
-  element.innerHTML = myName('Cody');
-  return element;
-}
 
-  document.body.appendChild(testing());
+
+
+var content = document.getElementById('big-container');
+document.body.appendChild(content);
+
+content.appendChild(testing());
+
