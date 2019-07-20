@@ -1,12 +1,5 @@
-const testing = () => {
-    var element2 = document.createElement('div');
-  
-    // use your function!
-    element2.textContent = 'Bojo';
-    return element2;
-  }
 
-  const mainPage = () => {
+  const titleDiv = () => {
     let title = document.createElement('div');
     title.id = 'title';
 
@@ -47,8 +40,17 @@ const iconsDiv = () => {
     return icons
 }
 
-  export {
-    mainPage, 
-    middleDiv,
-    iconsDiv
+  //get all in one function
+const bigContainer = () => {
+    let big = document.createElement('div');
+    big.id = 'big-container';
+    big.appendChild(titleDiv());
+    big.appendChild(middleDiv());
+    big.appendChild(iconsDiv());
+
+    return big
+}
+
+export {
+    bigContainer
  }
