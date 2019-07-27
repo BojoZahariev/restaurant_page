@@ -130,7 +130,7 @@ table {
 	border-spacing: 0;
 }
 
-#big-container {
+.big-container {
     margin: 0px;
 	padding: 0px;
 	height: 100vh;
@@ -223,6 +223,45 @@ table {
 	background-image: none;
 	background-color: #6ca6c1;
 	color: #222;
+}
+
+
+
+/*MENU*/
+
+#menu-background {
+	height: 90vh;
+	width: 600px;
+	margin: auto;
+	background-color: #011627;
+	background-image: url(../images/menu.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid #6ca6c1;
+}
+
+#menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 220px;
+	flex-wrap: wrap;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.menu-item,
+.menu-price {
+	color: #fffffc;
+	font-size: 25px;
+	flex-basis: 50%;
+	padding-top: 20px;
+}
+
+.menu-item {
+	display: inline-block;
+	position: relative;
+	margin-left: 0px;
+	padding-left: 0px;
 }
 
 
