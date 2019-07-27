@@ -73,33 +73,13 @@ const menuDiv = () => {
 	return menuBackground;
 };
 
-/*
-//put all that in the index.js
-const iconsDiv = () => {
-	let icons = document.createElement('div');
-	icons.id = 'icons';
-
-	let menu = document.createElement('a');
-	menu.id = 'icon-left';
-	menu.textContent = 'Home';
-	let location = document.createElement('a');
-	location.id = 'icon-right';
-	location.textContent = 'Find us';
-
-	icons.appendChild(menu);
-	icons.appendChild(location);
-
-	return icons;
-};
-*/
 
 //get all in one function
-//change the class of the home and the one in css to class instead of id
+
 const bigContainerMenu = () => {
 	let big = document.createElement('div');
 	big.classList.add('big-container');
 	big.appendChild(menuDiv());
-	//big.appendChild(iconsDiv());
 
 	return big;
 };

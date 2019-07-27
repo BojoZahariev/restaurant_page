@@ -264,6 +264,33 @@ table {
 	padding-left: 0px;
 }
 
+/*LOCATION*/
+
+#address,
+#hours {
+	padding-top: 80px;
+	margin-bottom: 30px;
+	font-size: 45px;
+	font-family: 'Varela Round', sans-serif;
+	text-shadow: 2px 2px #000;
+	color: #fffffc;
+}
+
+#map {
+	height: 400px;
+	width: 600px;
+	margin: auto;
+	background-color: #011627;
+	background-image: url(../images/map.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid #6ca6c1;
+}
+
+
+
+
 
 @media all and (max-width: 768px) {
 	#title {
