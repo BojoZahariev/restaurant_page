@@ -196,6 +196,7 @@ table {
 	font-family: 'Lobster', cursive;
 	user-select: none;
 	text-decoration: none;
+	
 }
 
 #icon-left:active,
@@ -264,6 +265,23 @@ table {
 	padding-left: 0px;
 }
 
+
+#icon-left-menu,
+#icon-right-location {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 150px;
+	font-size: 25px;
+	font-family: 'Lobster', cursive;
+	user-select: none;
+	text-decoration: none;
+	background-color: #8fc0a9;
+	color: #222;
+}
+
 /*LOCATION*/
 
 #address,
@@ -289,7 +307,47 @@ table {
 }
 
 
+@media all and (max-height: 870px) {
 
+	#title {
+		padding-top: 20px;
+	}
+
+	#menu {
+		padding-top: 70px;
+	}
+
+	#address,
+	#hours {
+		padding-top: 20px;
+		margin-bottom: 10px;
+		font-size: 35px;
+		font-family: 'Varela Round', sans-serif;
+		text-shadow: 2px 2px #000;
+		color: #fffffc;
+	}
+
+	#map {
+		height: 300px;
+		width: 500px;
+		margin: auto;
+	}
+
+	#icon-left,
+	#icon-right,
+	#icon-left-menu,
+	#icon-right-location {
+		height: 100px;
+		width: 100px;
+		line-height: 100px;
+	}
+
+	#icons {
+		
+		bottom: 10px;
+		text-align: center;
+	}
+}
 
 
 @media all and (max-width: 768px) {

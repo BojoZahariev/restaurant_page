@@ -29,7 +29,7 @@ const iconsDiv = (page) => {
         icons.appendChild(location);
     } else if (page === 'menu') {
         let menu = document.createElement('a');
-        menu.id = 'icon-left';
+        menu.id = 'icon-left-menu';
         menu.addEventListener("click", loadHome);
         menu.textContent = 'Home';
         let location = document.createElement('a');
@@ -45,7 +45,7 @@ const iconsDiv = (page) => {
         menu.addEventListener("click", loadMenu);
         menu.textContent = 'Menu';
         let location = document.createElement('a');
-        location.id = 'icon-right';
+        location.id = 'icon-right-location';
         location.addEventListener("click", loadHome);
         location.textContent = 'Home';
 
