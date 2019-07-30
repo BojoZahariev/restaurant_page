@@ -209,6 +209,7 @@ table {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin-right: 5px;
 }
 
 #icon-right {
@@ -217,6 +218,7 @@ table {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin-left: 5px;
 }
 
 #icon-left:hover,
@@ -280,6 +282,14 @@ table {
 	text-decoration: none;
 	background-color: #8fc0a9;
 	color: #222;
+}
+
+#icon-left-menu {
+	margin-right: 5px;
+}
+
+#icon-right-location {
+	margin-left: 5px;
 }
 
 /*LOCATION*/
