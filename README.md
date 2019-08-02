@@ -1,1 +1,1 @@
-# Simple restaurant page done using Webpack
+# Simple restaurant page done with Webpack
