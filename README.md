@@ -2,4 +2,4 @@
 
 ## Webpack, JS, HTML, CSS
 
-![Image of YouTube video](https://i.ibb.co/nwfPm6G/Capture-Vodolaza.png)
+![Image of Vodolaza](https://i.ibb.co/nwfPm6G/Capture-Vodolaza.png)
